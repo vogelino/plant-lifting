@@ -23,7 +23,7 @@ module.exports = function() {
 		up: 15,
 		down: 150
 	};
-	my.minLightValue = 18;
+	my.minLightValue = 15;
 
 	my.isInitialized = function() {
 		return !!my.servo && !!my.light && !!my.boardReady && !!my.animation;
@@ -58,11 +58,7 @@ module.exports = function() {
 
 			my.boardReady = true;
 			my.servo = five.Servo('D0');
-			my.light = five.Sensor({
-				pin: 'A0',
-				type: 'analog',
-				freq: 250
-			});
+			my.light = five.Sensor('A1');
 			my.animation = five.Animation(my.servo);
 
 			console.log('Animation initialized for the first time');
