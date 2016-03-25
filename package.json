@@ -12,6 +12,7 @@
   "license": "WPFL",
   "homepage": "https://bitbucket.org/vogelino/nibble-do-list#readme",
   "dependencies": {
-    "johnny-five": "^0.9.35"
+    "johnny-five": "^0.9.35",
+    "particle-io": "^0.12.0"
   }
 }
