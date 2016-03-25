@@ -1,0 +1,17 @@
+{
+  "name": "flyingPlant",
+  "version": "1.0.0",
+  "description": "Flying plant",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Lucas Vogel (Vogelino) & Matthew Franklin",
+  "license": "WPFL",
+  "homepage": "https://bitbucket.org/vogelino/nibble-do-list#readme",
+  "dependencies": {
+    "johnny-five": "^0.9.35"
+  }
+}
